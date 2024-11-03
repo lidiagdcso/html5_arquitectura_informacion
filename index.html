@@ -18,6 +18,7 @@
       content="bullet for my valentine, bfmv, metal, metalcore, the poisoned ascendancy tour"
     />
     <meta name="author" content="Lidia Gallardo" />
+    <script src="https://kit.fontawesome.com/907c6b65ba.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -41,7 +42,7 @@
     </header>
     <main>
       <article>
-        <h2>Nuevo Album</h2>
+        <h2>Nuevo Álbum</h2>
         <figure>
           <img
             src="./assets/albumcover.jpg"
@@ -51,7 +52,7 @@
           />
           <figcaption>Bullet for my valentine album</figcaption>
         </figure>
-        <button type="button"><a href="/">Encargalo Ahora</a></button>
+        <button type="button"><a href="https://www.emp-online.es/p/bullet-for-my-valentine/532447.html" target="_blank">Encárgalo Ahora</a></button>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
           corrupti animi, dolorum officia esse, consequuntur quia sed dicta
@@ -60,7 +61,7 @@
           <blockquote>
             <q>I just thought it was a really good way to kind of honor the past but almost put a full stop after it  and start again you know and I think that's what This album represents it's a new bullet it's a it's a hungry motivated Angry Bullet just like we were back in the day and it feels like we're reborn</q>
             <cite>Matt Tuck</cite>
-            <a href="https://www.youtube.com/watch?v=q8ztvBFm7OY&ab_channel=RockSound"> Entrevista Rock Sound</a>
+            <a href="https://www.youtube.com/watch?v=q8ztvBFm7OY&ab_channel=RockSound" target="_blank"> Entrevista Rock Sound</a>
           </blockquote>
         </p>
       </article>
@@ -142,7 +143,7 @@
           <fieldset>
             <legend><strong>Datos de Contacto</strong></legend>
             <label for="firstname" name="firstname"> Nombre </label>
-            <input type="text" name="firstname" id="firstname" required />
+            <input type="text" name="firstname" id="firstname" required maxlength="15"/>
 
             <label for="email" name="email"> Correo Electrónico </label>
             <input type="email" name="email" id="email" required />
@@ -154,17 +155,18 @@
           </fieldset>
           <fieldset>
             <legend><strong>¿Qué novedades quieres recibir?</strong></legend>
+            <p> <small><em>Debes seleccionar al menos una opción</em></small></p>
 
             <input type="checkbox" name="concertNews" id="concertNews" />
             <label for="concertNews">Fechas de eventos</label>
-            <input type="checkbox" name="merchNews" id="merchNews" />
+
+            <input type="checkbox" name="merchNews" id="merchNews"  />
             <label for="merchNews"> Novedades sobre Merchandising</label>
-            <input
-              type="checkbox"
-              name="releasesNews"
-              id="releasesNews"
-            /><label for="releasesNews">Nuevos lanzamientos</label>
+
+            <input type="checkbox" name="releasesNews" id="releasesNews"/>
+            <label for="releasesNews">Nuevos lanzamientos</label>
           </fieldset>
+
           <input type="reset" value="Borrar todo" />
           <button type="submit">Enviar</button>
         </form>
@@ -174,8 +176,19 @@
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/05b3WF6jDA6kf7JtIvKw2c?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </aside>
     <footer>
-<!-- redes sociales con links-->
- <!-- email de contacato -->
+<article>
+  <ul style="list-style:none">
+    <li><a href="https://www.youtube.com/@bulletformyvalentine" target="_blank"> <i class="fa-brands fa-youtube fa-xl" style="color:black"></i></li>
+    <li><a href="https://www.instagram.com/bfmvofficial/?hl=es" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color:black"></i></a></li>
+    <li><a href="https://www.facebook.com/BulletForMyValentine/" target="_blank"><i class="fa-brands fa-facebook fa-xl" style="color:black"></i></a></li>
+    <li><a href="https://x.com/bfmvofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa-brands fa-x-twitter fa-xl" style="color:black"></i></a></li>
+  </ul>
+</article>
+<article>
+  <p>Contacto:<a href="mailto: bulletformyvalentine@bfmvfalse.com"> bulletformyvalentine@bfmvfalse.com</a> </p>
+  
+</article>
+<article> <em>Bullet for My Valentine, 1998 ©️</em></article>
     </footer>
   </body>
 </html>
